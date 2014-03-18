@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:text="Title"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_toRightOf="@+id/title"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/length"
+        android:text="subtitle"
+        android:textColor="#7f7f7f"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="128"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/hr"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#c7c7c7" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/hr"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="7d20559cc421f34fb77d629d463ba30d44d4c971b4a5937e7d01af91f64cfb25498ce16cdf48f74da49649880cbc9aab938c88aa5f9bbb33230a6f0aacc65dce430d09fc691ce48f2180c6100f2bbe7bcb3c72d52cdbc1a906f3dc5b0d12b6103def78911cb03cb0e30903b5e83f342cee2a3462d9479a078ea44d3b8cc86e7d23dd5350d90ecadef7b53d6a66838208eb999e52bd2050ab0f867bd58d0d581350dcc12e8902a1a451c56a286d1a4016b9522984220126bb4c62de8e3bb771bb25abfc74520f2b563e9f2c3f079a4924178f6d9d20f3a182d86d4f402a1721f3dfab6e452592ac1d089102ea03099a4ce68bf389740385d0980d295fd43dae98"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#3c3c3c"
+        android:textIsSelectable="true"
+        android:textSize="14sp"
+        android:typeface="monospace" />
+</RelativeLayout>

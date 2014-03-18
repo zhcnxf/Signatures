@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Signatures</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_hex">Show as hex</string>
+    <string name="action_bytes">Show as bytes</string>
+
+</resources>
