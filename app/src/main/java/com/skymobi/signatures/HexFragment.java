@@ -88,7 +88,7 @@ public class HexFragment extends Fragment {
                 item.setIcon(R.drawable.ic_action_hex);
                 item.setTitle(R.string.action_hex);
                 String text = Arrays.toString(mBytes);
-                mContentView.setText(text.substring(1, text.length() - 2));
+                mContentView.setText(text.substring(1, text.length() - 1));
             } else {
                 item.setIcon(R.drawable.ic_action_bytes);
                 item.setTitle(R.string.action_bytes);
